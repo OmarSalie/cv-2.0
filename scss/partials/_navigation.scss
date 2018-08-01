@@ -1,0 +1,58 @@
+.tab {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.tablinks {
+    border: none;
+    text-align: center;
+    background-color: whitesmoke;
+    color: $color2;
+    border: 1px solid $color1;
+    border-top-color: transparent;
+    height: 50px;
+
+    &:hover {
+        color: $color1;
+        background-color: $whitesmoke-dark;
+        cursor: pointer;
+        // border-bottom: 1px solid transparent;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+
+    .icon {
+        display: none;
+    }
+}
+
+.eduTabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.eduLinks {
+    background-color: transparent;
+    border: none;
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+    }
+    .lca {
+        width: 150px;
+    }
+    &:hover {
+        background-color: $color2;
+    }
+    &:focus {
+        outline: 0;
+    }
+}
+
+.active {
+    border-bottom: 1px solid transparent;
+}

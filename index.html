@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Curriculum Vitae | Omar Salie</title>
+
+  <!-- changes spaces on page -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- link to the main stylesheet -->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+
+  <!-- link fontawesome stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/fa-brands.css">
+  <link rel="stylesheet" type="text/css" href="css/fa-regular.css">
+  <link rel="stylesheet" type="text/css" href="css/fa-solid.css">
+  <link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="container2">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    
+      <header>
+        <h1>Omar Salie</h1>
+    
+        <h3>Full Stack Web Developer</h3>
+    
+        <div class="social-links">
+            <a href="https://github.com/OmarSalie" class="gitIcon" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/omar-salie-b945ba109/" class="linkedIcon" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <button id="contactShow"><i class="fas fa-phone-square"></i></button>
+            <div id="contactDetails" class="modal">
+  
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Contact Details</h3>
+                <p>Cell: 072 223 0710</p>
+                <p>Email: salieomar.os@gmail.com</p>
+              </div>
+              
+            </div>
+        </div>
+        <div class="arrow-down">
+            <a href="#section-2"><i class="fas fa-angle-down"></i></a> 
+        </div>
+      </header>
+      <main id="section-2">
+        
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'about_me')" id="defaultOpen"><span class="label">Personal Details</span><span class="icon"><i class="fas fa-user-circle"></i></span></button>
+          <button class="tablinks" onclick="openTab(event, 'academic_details')"><span class="label">Academic Details</span><span class="icon"><i class="fas fa-book"></i></span></button>
+          <button class="tablinks" onclick="openTab(event, 'skills')"><span class="label">Skills</span><span class="icon"><i class="fas fa-wrench"></i></span></button>
+          <button class="tablinks" onclick="openTab(event, 'work_experience')"><span class="label">Work Experience</span><span class="icon"><i class="fas fa-briefcase"></i></span></button>
+          <button class="tablinks" onclick="openTab(event, 'hobbies_interests')"><span class="label">Hobbies & Interests</span><span class="icon"><i class="fas fa-gamepad"></i></span></button>
+        </div>
+    
+        <section id="about_me" class="tabcontent">
+          <div class="wrapper">
+            <h2>About Me</h2>
+            <p>I consider myself to be a very critical thinker and always will question whatever I may see. As a child, I was simply just fascinated with computers in general. Be it games or just Microsoft Office, I just wanted to be in front of a computer. Since then I have delved into many different aspects of the I.T field such as building computer towers, networking and editing(Images and Videos) but the field that spoke to me the most was programming. Just the thrill of solving a difficult problem was enough to make me want to pursue a career in programming. Along with my love for video games, my dream career job is to become a Video Game Programmer.</p>
+          </div>
+        </section>
+    
+        <section id="academic_details" class="tabcontent">
+          <div class="wrapper">
+            <h2>Education & Skills</h2>
+    
+            <div class="eduTabs">
+              <button class="eduLinks" onclick="openEdu(event, 'academy')" id="defaultOpen2"><img src="images/salesianlifechoicesacademy.png" alt="" class="lca"></button>
+              <button class="eduLinks" onclick="openEdu(event, 'university')"><img src="images/uwclogo.png" alt="" class="uwc"></button>
+              <button class="eduLinks" onclick="openEdu(event, 'highschool')"><img src="images/rylands.png" alt=""  class="rhs"></button>
+            </div>
+    
+            <div id="academy" class="eduContent">
+              <p class="underline">2018-Present: Salesians Life Choices Academy</p>
+              <p>Web Development (6 months full-time course)</p>
+              <p>The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life, practical and professional development skills. We did intensive study of the following web development languages: HTML, CSS, jQuery, JavaScript and Sass. As part of our professional development, we had the opportunity to use online resources such as M.O.O.C's, were taught Design Thinking and made use of resources for personal reflection, such as DISC profiles and SMART goal setting.</p>
+              <p>This course has allowed me to alter my way of thinking and develop a method of looking at the whole picture even more objectively than I did before. It has also forced me to engage with people from different backgrounds, allowing me to put my objective views into practice. The pace of the course itself is not too fast for the average student. I have begun to think more about what I want to do in the future and to believe that I can achieve it.</p>
+            </div>
+    
+            <div id="university" class="eduContent">
+              <p class="underline">2014-2017: The University of the Western Cape</p>
+              <p>BSc Computer Science (Incomplete)</p>
+              <p>I did not complete the course but I have taken a lot of valuable skills from it. I understand the fundamentals of programming, algorithms and complexity. I have a good understanding of calculus. I also know how Information Systems work and how to work as a Business Analyst and Project Manager.</p>
+            </div>
+    
+            <div id="highschool" class="eduContent">
+              <p class="underline">2009-2013: Rylands High School</p>
+              <p>Matric Certificate: Bachelors Degree</p>
+              <ul>
+                <li>English</li>
+                <li>Afrikaans</li>
+                <li>Mathematics</li>
+                <li>Life Science</li>
+                <li>Physical Science</li>
+                <li>Information Technology (Distinction)</li>
+                <li>Life Orientation</li>
+              </ul>
+            </div>      
+          </div>
+        </section>
+        
+        <section id="skills" class="tabcontent">
+          <div class="wrapper">
+            <h2>Skills</h2>
+            <ul>
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>CSS Grids</li>
+              <li>Responsive Design</li>
+              <li>SASS</li>
+              <li>JavaScript</li>
+              <li>API's & CRUD</li>
+            </ul>
+          </div>
+        </section>
+    
+        <section id="work_experience" class="tabcontent">
+          <div class="wrapper">
+            <h2>Work Experience</h2>
+    
+            <p>December 2015 & 2016: Polar Ice Cream</p>
+            <p>Cashier</p>
+            <p>This job allowed me to meet many people form all over Cape Town. Because of this job I am open to many different kinds of personalities.</p>
+            <p>2015-mid 2016: UWC: Work-Study Programme</p>
+            <p>Tutor/Facilitator for ISC(Introduction to Science)</p>
+            <p>This job allowed me to get used to talking to a crowd and how to teach others.</p>
+          </div>
+        </section>
+    
+        <section id="hobbies_interests" class="tabcontent">
+          <div class="wrapper">
+            <h2>Hobbies & Interests</h2>
+            <p>I enjoy playing video games competitively (Semi-professionally) and I watching anime(Japanese Animation). From anime, I started reading manga(Japanese Comics) and Light Novels(Short Japanese Novels) which also led me to reading Korean and Chinese Novels. All these asian novels are not professionally translated but translated online by fans.</p>
+          </div>
+        </section>
+    
+        <!-- <footer>
+          <span class="contact-details">0722230710|salieomar.os@gmail.com </span><span class="social-links"></span>
+        </footer> -->
+      </main>
+    </div>
+  </div>
+  <script>
+    document.getElementById("defaultOpen").click();
+
+    function openTab(evt, sectionName) {
+
+      var i, tabcontent, tablinks;
+
+      tabcontent = document.getElementsByClassName("tabcontent");
+
+      for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+      }
+
+      tablinks = document.getElementsByClassName("tablinks");
+
+      for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      document.getElementById(sectionName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+  <script>
+    document.getElementById("defaultOpen2").click();
+
+    function openEdu(evt, sectionName) {
+
+      var i, tabcontent, tablinks;
+
+      tabcontent = document.getElementsByClassName("eduContent");
+
+      for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+      }
+
+      tablinks = document.getElementsByClassName("eduLinks");
+
+      for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      document.getElementById(sectionName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('contactDetails');
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("contactShow");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on the button, open the modal 
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+</body>
+</html>

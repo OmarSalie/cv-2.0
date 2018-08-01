@@ -1,0 +1,64 @@
+// base
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 360px) {
+    body {
+        font-size: 1em;
+    }
+    .wrapper {
+        padding: 30px;
+    }
+}
+// animations
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 360px) {
+    
+}
+
+// header
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 360px) {
+    header {
+        h1 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.2em;
+        }
+    }
+    
+}
+
+// navigation
+@media (max-width: 768px) {
+    .tablinks {
+        .label {
+            display: none;
+        }
+
+        .icon {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    
+}
+
+// footer
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 360px) {
+    
+}
