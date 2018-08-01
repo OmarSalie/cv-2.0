@@ -3,7 +3,7 @@ header {
     color: $color3;
 
     display: grid;
-    grid-template-rows: repeat(2, 1fr) 20% 10%;
+    grid-template-rows: repeat(2, 1fr) 10% 15% 10%;
 
     background: {
         image: url(../images/header.jpeg);
@@ -31,6 +31,7 @@ header {
         button {
             border: none;
             background-color: transparent;
+            padding: 0;
         }
 
         font: {
@@ -62,6 +63,25 @@ header {
                 color: $color5;
             }
         }
+
+        .downloadBtn {
+            background-color: white;
+             width: 30px;
+             height: 30px;
+             margin-top: 10px;
+        }
+    }
+
+    .downloadBtn {
+        text-decoration: none;
+        color: white;
+        margin: 0 auto;
+        font: {
+            size: 2em;
+        }
+        &:hover {
+            color: $color5;
+        }
     }
 
     .arrow-down {
@@ -78,11 +98,3 @@ header {
     }
 }
 
-@media (min-width: 360px) {
-    h1 {
-        font-size: 2em;
-    }
-    h3 {
-        font-size: 1.2em;
-    }
-}
