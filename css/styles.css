@@ -190,7 +190,7 @@ header {
   height: 50px; }
   .tablinks:hover {
     color: #012586;
-    background-color: #dfdfdf;
+    background: linear-gradient(#dfdfdf, whitesmoke);
     cursor: pointer; }
   .tablinks:focus {
     outline: 0; }

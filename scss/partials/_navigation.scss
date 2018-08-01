@@ -14,7 +14,7 @@
 
     &:hover {
         color: $color1;
-        background-color: $whitesmoke-dark;
+        background: linear-gradient($whitesmoke-dark, whitesmoke);
         cursor: pointer;
         // border-bottom: 1px solid transparent;
     }
