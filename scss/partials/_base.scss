@@ -35,3 +35,41 @@ h1 {
         text-align: center;
     }
 }
+
+.languages {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-size: 2em;
+}
+
+.underline {
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+    .project {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        text-decoration: none;
+
+        color: $color2;
+
+        border: 1px solid $color2;
+
+        &:hover {
+            background-color: $color3;
+        }
+
+        img {
+            display: block;
+            width: 200px;
+            height: 100px;
+            margin: 0 auto;
+        }
+    }
+}

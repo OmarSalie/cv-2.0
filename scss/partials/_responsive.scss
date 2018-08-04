@@ -6,6 +6,16 @@
     .wrapper {
         padding: 40px;
     }
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+
+        .project {
+            img {
+                width: 150px;
+                height: 75px;
+            }
+        }
+    }
 }
 
 @media (max-width: 360px) {
@@ -14,6 +24,16 @@
     }
     .wrapper {
         padding: 30px;
+    }
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+
+        .project {
+            img {
+                width: 100px;
+                height: 50px;
+            }
+        }
     }
 }
 // animations
