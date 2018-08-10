@@ -39,7 +39,8 @@ h1 {
 .languages {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  font-size: 2em; }
+  font-size: 2em;
+  text-align: center; }
 
 .underline {
   text-decoration: underline;
@@ -49,19 +50,28 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px; }
+  .projects .outdoor_adventures {
+    background-image: url("../images/project1.png");
+    background-size: 100% 100%; }
+  .projects .code4ct {
+    background-image: url("../images/project2.png");
+    background-size: 100% 100%; }
+  .projects .blog {
+    background-image: url("../images/project3.png");
+    background-size: 100% 100%; }
+  .projects .blog2-0 {
+    background-image: url("../images/project4.png");
+    background-size: 100% 100%; }
   .projects .project {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    text-decoration: none;
-    color: #065D6F;
-    border: 1px solid #065D6F; }
-    .projects .project:hover {
-      background-color: #75D6D0; }
-    .projects .project img {
-      display: block;
-      width: 200px;
-      height: 100px;
-      margin: 0 auto; }
+    grid-template-rows: 70% 30%;
+    height: 200px;
+    text-decoration: none; }
+    .projects .project h2 {
+      grid-row: 2;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+      margin: 0; }
 
 .tabcontent {
   animation: fadeEffect 0.3s;
@@ -212,8 +222,6 @@ header {
   text-align: center;
   background-color: whitesmoke;
   color: #065D6F;
-  border: 1px solid #012586;
-  border-top-color: transparent;
   height: 50px; }
   .tablinks:hover {
     color: #012586;
@@ -239,12 +247,15 @@ header {
   .eduLinks .lca {
     width: 150px; }
   .eduLinks:hover {
-    background-color: #065D6F; }
+    background: linear-gradient(#dfdfdf, whitesmoke); }
   .eduLinks:focus {
     outline: 0; }
 
 .active {
-  border-bottom: 1px solid transparent; }
+  background: linear-gradient(#cbcbcb, whitesmoke); }
+
+.eduActive {
+  background: linear-gradient(#cbcbcb, whitesmoke); }
 
 footer {
   position: fixed;

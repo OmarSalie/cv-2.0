@@ -40,6 +40,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     font-size: 2em;
+    text-align: center;
 }
 
 .underline {
@@ -52,24 +53,39 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 
+    .outdoor_adventures {
+        background-image: url('../images/project1.png');
+        background-size: 100% 100%;
+    }
+
+    .code4ct {
+        background-image: url('../images/project2.png');
+        background-size: 100% 100%;
+    }
+
+    .blog {
+        background-image: url('../images/project3.png');
+        background-size: 100% 100%;
+    }
+
+    .blog2-0 {
+        background-image: url('../images/project4.png');
+        background-size: 100% 100%;
+    }
+
     .project {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 70% 30%;
+        height: 200px;
         text-decoration: none;
+        
+        h2 {
+            grid-row: 2;
+            
 
-        color: $color2;
-
-        border: 1px solid $color2;
-
-        &:hover {
-            background-color: $color3;
-        }
-
-        img {
-            display: block;
-            width: 200px;
-            height: 100px;
-            margin: 0 auto;
+            color: white;
+            background-color: rgba($color: #000000, $alpha: 0.4);
+            margin: 0;
         }
     }
 }
