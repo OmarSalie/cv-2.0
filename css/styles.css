@@ -51,16 +51,16 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px; }
   .projects .outdoor_adventures {
-    background-image: url("../images/project1.png");
+    background-image: url("../images/project1.jpg");
     background-size: 100% 100%; }
   .projects .code4ct {
-    background-image: url("../images/project2.png");
+    background-image: url("../images/project2.jpg");
     background-size: 100% 100%; }
   .projects .blog {
-    background-image: url("../images/project3.png");
+    background-image: url("../images/project3.jpg");
     background-size: 100% 100%; }
   .projects .blog2-0 {
-    background-image: url("../images/project4.png");
+    background-image: url("../images/project4.jpg");
     background-size: 100% 100%; }
   .projects .project {
     display: grid;
