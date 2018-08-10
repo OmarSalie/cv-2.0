@@ -6,6 +6,14 @@
     .wrapper {
         padding: 40px;
     }
+    .aboutGrid {
+        display: block;
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
     .projects {
         grid-template-columns: repeat(2, 1fr);
 
@@ -25,6 +33,7 @@
     .wrapper {
         padding: 30px;
     }
+    
     .projects {
         grid-template-columns: repeat(1, 1fr);
 
@@ -35,14 +44,6 @@
             }
         }
     }
-}
-// animations
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 360px) {
-    
 }
 
 // header
